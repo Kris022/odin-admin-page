@@ -1,40 +1,64 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Geneva, Tahoma, sans-serif;
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
 }
 
 nav {
-    background-color: #16a34a;
-    width: 16vw;
-    color: white;
-    font-weight: bold;
+  background-color: #16a34a;
+  width: 16vw;
+  color: white;
+  font-weight: bold;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
 }
 
 li {
-    padding: 12px;
-    padding-left: 35px;
+  padding: 12px;
+  padding-left: 35px;
 }
 
 li:hover {
-    background-color: #166534;
-    cursor: pointer;
+  background-color: #166534;
+  cursor: pointer;
 }
 
 nav div:first-child {
-    font-size: 18pt;
-    padding: 10px;
-    padding-left: 35px;
+  font-size: 18pt;
+  padding: 10px;
+  padding-left: 35px;
+}
+
+.header .top {
+  display: flex;
+  justify-content: space-around;
+  width: calc(100vw - 16vw);
+  padding: 15px;
+}
+
+.header .top div:first-child {
+  flex: 1;
+}
+
+input {
+  background-color: lightsteelblue;
+  border: none;
+  width: 35%;
+  padding: 5px;
+  margin-left: 25px;
+  border-radius: 10px;
+}
+
+.header .top div:last-child {
+  display: flex;
 }
