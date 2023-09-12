@@ -1,0 +1,43 @@
+:root {
+  --nav-width: 13vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  width: var(--nav-width);
+}
+
+main {
+  width: calc(100vw - var(--nav-width));
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar {
+  border: 1px solid red;
+  width: 45%;
+}
+
+.account-links {
+  display: flex;
+}
