@@ -31,13 +31,39 @@ header {
 .header-top {
   display: flex;
   justify-content: space-between;
+  border: 1px solid red;
 }
 
 .search-bar {
-  border: 1px solid red;
   width: 45%;
 }
 
 .account-links {
   display: flex;
+}
+
+.header-bottom {
+  border: solid 1px green;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-bottom-left {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid blue;
+}
+
+.content-left {
+  border: 1px solid lightblue;
+  width: 100%;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
