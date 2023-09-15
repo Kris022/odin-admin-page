@@ -7,7 +7,7 @@ body {
 }
 .grid-container {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 20% 80%;
 }
 
 .sidebar {
@@ -32,15 +32,17 @@ body {
 
 .sidebar-row {
   margin: 0;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 20px;
   padding: 0;
-  font-size: 18pt;
+  font-size: 16pt;
 }
 
 .sidebar-item {
   display: flex;
   align-items: center;
+  font-weight: 500;
+  padding: 8px 0;
 }
 
 .sidebar-item img {
@@ -57,4 +59,37 @@ body {
 
 .main {
   height: 100vh;
+  display: grid;
+  grid-template-rows: 20% 80%;
+}
+
+.header {
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.navbar input {
+  width: 500px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 20px;
+  margin-right: 300px;
+  background-color: #d1d5db;
+  padding: 5px 10px;
+}
+
+.content {
+  background-color: #d4d4d4;
+}
+
+#avatarNavbar {
+  border-radius: 100%;
+  width: 50px;
+  height: auto;
+  margin: 0 20px;
 }
