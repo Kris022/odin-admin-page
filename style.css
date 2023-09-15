@@ -60,7 +60,7 @@ body {
 .main {
   height: 100vh;
   display: grid;
-  grid-template-rows: 20% 80%;
+  grid-template-rows: 22% 78%;
 }
 
 .header {
@@ -92,4 +92,41 @@ body {
   width: 50px;
   height: auto;
   margin: 0 20px;
+}
+
+#headerAvatar {
+  border-radius: 100%;
+  width: 55px;
+  height: auto;
+  margin: 0 20px;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-bottom-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-bottom-right {
+  /* border: 1px solid red; */
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 125px;
+}
+
+.header-bottom-right button {
+  background-color: #0ea5e9;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  width: 85px;
+  height: 40px;
 }
