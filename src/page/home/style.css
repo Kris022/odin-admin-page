@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100vh;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 25% 75%;
+}
+
+main {
+    background-color: #e5e7eb;
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.annoucement-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 85%;
+}
+
+.ann-row h5 {
+    margin: 0;
+}
+
+.ann-row p {
+    color: #57534e;
+}
+
+.ann-row {
+    padding-block: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e5e7eb;
+}

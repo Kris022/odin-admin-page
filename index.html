@@ -1,86 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Vite + React</title>
   </head>
   <body>
-    <div class="grid-container">
-      <div class="sidebar">
-        <div class="logo-text">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <title>puzzle</title>
-            <path
-              d="M20.5,11H19V7C19,5.89 18.1,5 17,5H13V3.5A2.5,2.5 0 0,0 10.5,1A2.5,2.5 0 0,0 8,3.5V5H4A2,2 0 0,0 2,7V10.8H3.5C5,10.8 6.2,12 6.2,13.5C6.2,15 5,16.2 3.5,16.2H2V20A2,2 0 0,0 4,22H7.8V20.5C7.8,19 9,17.8 10.5,17.8C12,17.8 13.2,19 13.2,20.5V22H17A2,2 0 0,0 19,20V16H20.5A2.5,2.5 0 0,0 23,13.5A2.5,2.5 0 0,0 20.5,11Z"
-            />
-          </svg>
-          <h1>Dashboard</h1>
-        </div>
-        <div class="sidebar-row">
-          <div class="sidebar-item">
-            <img src="assets/magnify.svg" alt="" />
-            Profile
-          </div>
-          <div class="sidebar-item">
-            <img src="assets/magnify.svg" alt="" />
-            Messages
-          </div>
-          <div class="sidebar-item">
-            <img src="assets/magnify.svg" alt="" />
-            History
-          </div>
-          <div class="sidebar-item">
-            <img src="assets/magnify.svg" alt="" />
-            Tasks
-          </div>
-          <div class="sidebar-item">
-            <img src="assets/magnify.svg" alt="" />
-            Communities
-          </div>
-        </div>
-        <div class="sidebar-row">
-          <div class="sidebar-item">
-            <img src="assets/magnify.svg" alt="" />
-            Settings
-          </div>
-          <div class="sidebar-item">
-            <img src="assets/magnify.svg" alt="" />
-            Support
-          </div>
-          <div class="sidebar-item">
-            <img src="assets/magnify.svg" alt="" />
-            Privacy
-          </div>
-        </div>
-      </div>
-      <div class="main">
-        <div class="header">
-          <div class="navbar">
-            <img src="assets/magnify.svg" width="24px" alt="" />
-            <input type="text" />
-            <img src="assets/bell.svg" width="24px" alt="" />
-            <img src="assets/pfp.jpg" id="avatarNavbar" alt="" />
-            <h5>Morgan Oakley</h5>
-          </div>
-          <div class="header-bottom">
-            <div class="header-bottom-left">
-              <img src="assets/pfp.jpg" alt="" id="headerAvatar" />
-              <div style="display: flex; flex-direction: column; justify-items: center;">
-                <p style="margin: 0">hi, there</p>
-                <h4 style="margin: 0">Morgan Oakley (@morgano)</h4>
-              </div>
-            </div>
-            <div class="header-bottom-right">
-              <button>New</button>
-              <button>Upload</button>
-              <button>Share</button>
-            </div>
-          </div>
-        </div>
-        <div class="content"></div>
-      </div>
-    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

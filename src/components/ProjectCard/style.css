@@ -1,0 +1,35 @@
+.card-wrapper {
+    width: 350px;
+    background-color: white;
+    border-radius: 8px;
+    border-left: 10px solid #fbbf24;
+    padding: 25px;
+}
+.card-wrapper h3, p {
+    margin: 0;
+}
+
+.card-wrapper h3 {
+    margin-bottom: 10px;
+}
+
+.card-content {
+    /* border: solid 1px red; */
+    width: 80%;
+}
+
+.card-content p {
+    color: #3f3f46;
+}
+
+.card-footer {
+    margin-top: 20px;
+    /* border: 1px solid yellowgreen; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.card-footer div:nth-child(2) {
+    margin-inline: 10px;
+}

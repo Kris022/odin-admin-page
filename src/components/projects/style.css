@@ -1,0 +1,11 @@
+/*  */
+.main-wrapper {
+    margin-inline: 20px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 10px;
+}
